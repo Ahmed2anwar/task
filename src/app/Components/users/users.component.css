@@ -1,0 +1,95 @@
+.users-list h3 {
+  color: #172b4d;
+  font-weight: 400;
+  font-size: 24px;
+}
+.users-list p {
+  color: #5e7191;
+  font-weight: 400;
+  font-size: 14px;
+}
+.table thead tr th {
+  color: rgba(146, 146, 157, 1) !important;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.title {
+  color: rgba(66, 82, 110, 1);
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.box-container {
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.16);
+}
+
+.email {
+  color: rgba(0, 74, 155, 1);
+  font-weight: 700;
+  font-size: 14px;
+}
+.button {
+  text-align: center;
+  border-radius: 8px;
+  background-color: #004a9b;
+  width: 146px;
+  height: 40px;
+  color: white;
+  border: 1px solid #004a9b;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .table thead tr th {
+    text-align: center;
+  }
+  .button {
+    text-align: center;
+    border-radius: 8px;
+    background-color: #004a9b;
+    width: 100px !important;
+    height: 40px;
+    color: white;
+    border: 1px solid #004a9b;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 10px;
+  }
+  svg {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  .email {
+    color: rgba(0, 74, 155, 1);
+    font-weight: 700;
+    font-size: 12px;
+  }
+  img {
+    width: 70% !important;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 450px) {
+  .button {
+    text-align: center;
+    border-radius: 8px;
+    background-color: #004a9b;
+    width: 100px !important;
+    height: 40px;
+    color: white;
+    border: 1px solid #004a9b;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 10px;
+  }
+  img {
+    width: 100% !important;
+  }
+}
